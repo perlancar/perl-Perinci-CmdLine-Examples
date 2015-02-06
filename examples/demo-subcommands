@@ -5,7 +5,7 @@ use strict;
 use utf8;
 use warnings;
 
-use Perinci::CmdLine;
+use Perinci::CmdLine::Classic;
 
 our %SPEC;
 
@@ -52,7 +52,7 @@ my @more_sc = (
     sc19 => {url=>'/main/foo'},
 );
 
-Perinci::CmdLine->new(
+Perinci::CmdLine::Classic->new(
     description => <<'_',
 
 Try running this program with:

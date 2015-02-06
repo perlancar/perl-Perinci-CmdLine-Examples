@@ -4,7 +4,7 @@ use 5.010;
 use strict;
 use warnings;
 
-use Perinci::CmdLine;
+use Perinci::CmdLine::Classic;
 use Perinci::Sub::Util qw(err);
 
 our %SPEC;
@@ -26,4 +26,4 @@ sub h {
 }
 
 
-Perinci::CmdLine->new(url => '/main/f')->run;
+Perinci::CmdLine::Classic->new(url => '/main/f')->run;

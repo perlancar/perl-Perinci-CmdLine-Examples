@@ -6,7 +6,7 @@
 use 5.010;
 use strict;
 use warnings;
-use Perinci::CmdLine;
+use Perinci::CmdLine::Classic;
 
 our %SPEC;
 
@@ -28,4 +28,4 @@ sub greedy {
     [200, "OK", $args{args}];
 }
 
-Perinci::CmdLine->new(url=>'/main/greedy')->run;
+Perinci::CmdLine::Classic->new(url=>'/main/greedy')->run;

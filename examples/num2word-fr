@@ -6,7 +6,7 @@ use utf8;
 use warnings;
 
 use Lingua::FR::Nums2Words ();
-use Perinci::CmdLine;
+use Perinci::CmdLine::Classic;
 
 our %SPEC;
 
@@ -45,4 +45,4 @@ sub num2word_fr {
     [200, "OK", Lingua::FR::Nums2Words::num2word($args{num})];
 }
 
-Perinci::CmdLine->new(url=>'/main/num2word_fr')->run;
+Perinci::CmdLine::Classic->new(url=>'/main/num2word_fr')->run;

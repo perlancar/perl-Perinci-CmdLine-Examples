@@ -4,7 +4,7 @@ use 5.010;
 use strict;
 use warnings;
 
-use Perinci::CmdLine;
+use Perinci::CmdLine::Classic;
 
 our %SPEC;
 
@@ -20,4 +20,4 @@ sub cmdline_src_stdin_or_files_str {
     [200, "OK", "a1=$args{a1}"];
 }
 
-Perinci::CmdLine->new(url => '/main/cmdline_src_stdin_or_files_str')->run;
+Perinci::CmdLine::Classic->new(url => '/main/cmdline_src_stdin_or_files_str')->run;

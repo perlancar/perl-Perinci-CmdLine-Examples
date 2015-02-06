@@ -5,7 +5,7 @@ use strict;
 use utf8;
 use warnings;
 
-use Perinci::CmdLine;
+use Perinci::CmdLine::Classic;
 
 our %SPEC;
 
@@ -153,4 +153,4 @@ sub demo_help {
     [200];
 }
 
-Perinci::CmdLine->new(url=>'/main/demo_help')->run;
+Perinci::CmdLine::Classic->new(url=>'/main/demo_help')->run;

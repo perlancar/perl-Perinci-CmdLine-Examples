@@ -4,7 +4,7 @@ use 5.010;
 use strict;
 use warnings;
 
-use Perinci::CmdLine;
+use Perinci::CmdLine::Classic;
 use Tie::Simple;
 
 our %SPEC;
@@ -26,5 +26,5 @@ sub uc_file {
     [200, "OK", \@ary, {is_stream=>1}];
 }
 
-Perinci::CmdLine->new(url => '/main/uc_file')->run;
+Perinci::CmdLine::Classic->new(url => '/main/uc_file')->run;
 

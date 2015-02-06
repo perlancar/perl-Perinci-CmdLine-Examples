@@ -6,7 +6,7 @@
 use 5.010;
 use strict;
 use warnings;
-use Perinci::CmdLine;
+use Perinci::CmdLine::Classic;
 
 our %SPEC;
 
@@ -24,7 +24,7 @@ $SPEC{sc2} = {
 };
 sub sc2 { [200, "OK", "This is sc2"] }
 
-Perinci::CmdLine->new(
+Perinci::CmdLine::Classic->new(
     log_any_app => 1,
     subcommands=>{
         sc1 => {url=>"/main/sc1"},

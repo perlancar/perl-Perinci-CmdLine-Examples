@@ -1,7 +1,7 @@
-package Perinci::CmdLine::Examples;
+package Perinci::CmdLine::Classic::Examples;
 
 # DATE
-# ABSTRACT
+# VERSION
 
 use 5.010001;
 
@@ -11,5 +11,5 @@ use 5.010001;
 =head1 DESCRIPTION
 
 This distribution includes C<examples/> which contains example scripts that use
-L<Perinci::CmdLine>.
+L<Perinci::CmdLine::Classic>.
 
