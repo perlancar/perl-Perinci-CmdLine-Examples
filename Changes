@@ -1,4 +1,4 @@
-0.03    2015-09-03 (PERLANCAR)
+0.03    2015-09-03  Released-By: PERLANCAR
 
 	- No functional changes.
 
@@ -7,7 +7,7 @@
 	  requirement.
 
 
-0.02    2015-02-06 (PERLANCAR)
+0.02    2015-02-06  Released-By: PERLANCAR
 
 	- No functional changes.
 
@@ -16,7 +16,7 @@
 	  Perinci::CmdLine -> Perinci::CmdLine::Classic.
 
 
-0.01     2014-08-21 (SHARYANTO)
+0.01     2014-08-21  Released-By: SHARYANTO
 
          - First release, split from Perinci-CmdLine to reduce dependencies
            (which are already big as it was).
